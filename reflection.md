@@ -8,7 +8,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
----
+One bug I encountered was the "Go LOWER" and "Go HIGHER" message after a guess would be inconsistent with my actual guess. For example, inputting a value of 1 would prompt the message "Go LOWER" even though the correct value is obviously higher than 1. A second bug I encountered was the "Attempts Left" count when a user would enter a guess. The count starts from 8, and once a user has guessed 7 times, it prompts the correct answer at the bottom of the screen even though the user still has one guess remaining. A third bug I encountered is the "New Game" button. Once the correct answer is shown after a user runs out of guesses, the "New Game" button doesn't reset the guess counter and users are not able to enter a new value (the screen is effectively stuck). 
 
 ## 2. How did you use AI as a teammate?
 
